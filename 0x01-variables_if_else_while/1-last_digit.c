@@ -1,8 +1,6 @@
-File Edit Options Buffers Tools C Help
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#include <stddef.h>
 #include <stdio.h>
 /**
  * main - find positive or negative
