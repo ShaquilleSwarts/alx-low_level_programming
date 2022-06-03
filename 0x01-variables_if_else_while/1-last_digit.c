@@ -18,8 +18,8 @@ m = n%10;
 if (m > 5)
 printf("and is greater than 5\n", n);
 else if (m == 0)
-printf("and and is 0\n", n);
+printf("and is 0\n", n);
 else if (m > 6)
-printf("and and is less than 6 and not 0\n", n);
+printf("and is less than 6 and not 0\n", n);
 return (0);
 }
