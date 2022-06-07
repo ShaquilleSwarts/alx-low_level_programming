@@ -4,7 +4,7 @@
  * Description: using random number generator
  * Return: Returns a 0
  */
-int print_alphabet()
+int print_alphabet(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; ++c)
