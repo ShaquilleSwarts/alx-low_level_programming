@@ -1,4 +1,3 @@
-File Edit Options Buffers Tools C Help
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
@@ -9,11 +8,15 @@ File Edit Options Buffers Tools C Help
  * Return: Returns a 0
  */
 int main(void)
-char c = "_putchar"
 {
-char c;
-
-putchar(c);
+putchar(95);
+putchar(112);
+putchar(117);
+putchar(116);
+putchar(99);
+putchar(104);
+putchar(97);
+putchar(114);
 putchar('\n');
 return (0);
 }
