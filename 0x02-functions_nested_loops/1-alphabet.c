@@ -1,9 +1,14 @@
 #include "main.h"
+/**
+ * main - find positive or negative
+ * Description: using random number generator
+ * Return: Returns a 0
+ */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; ++c);
-_putchar(c);
-_putchar('\n');
-return (0);
+  char c;
+  for (c = 'a'; c <= 'z'; ++c)
+  _putchar(c);
+  _putchar('\n');
+  return (0);
 }
