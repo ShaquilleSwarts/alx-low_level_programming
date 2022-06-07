@@ -1,5 +1,10 @@
 #include "main.h"
-int main()
+/**
+ * main -print char
+ * Description: using created include
+ * Return: Returns a 0
+ */
+int main(void)
 {
 _putchar (95);
 _putchar (112);
