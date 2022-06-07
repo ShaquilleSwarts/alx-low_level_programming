@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - find positive or negative
- * Description: using random number generator
+ * print_alphabet - printing alphabet
+ * Description: abcdefghijk
  * Return: Returns a 0
  */
 int print_alphabet(void)
