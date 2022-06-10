@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isupper - calcs if uppercase
+ * Description: is it upper
+ * @c: param is c
+ * Return: Returns a 0 if not and 1 if is
  */
 int _isupper(int c)
 {
