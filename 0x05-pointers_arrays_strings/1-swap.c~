@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * reset_to_98 - resets value
+ * Description: reset value to 98
+ * Return: Returns 0
+ */
+
+void swap_int(int *a, int *b)
+{
+  int t;
+
+  t  = *b;
+  *b = *a;
+  *a = t;
+}
