@@ -14,11 +14,10 @@ while (s[len] != '\0')
 {
 ++len;
 }
---len;
 for (i = 0; i < len / 2; ++i)
 {
 tmp = s[i];
-s[i] = s[len - i];
-s[len - i] = tmp;
+s[i] = s[len - i - 1];
+s[len - i - 1] = tmp;
 }
 }
