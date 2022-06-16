@@ -2,7 +2,7 @@
 
 
 /**
- * _strncar - concatenates two string
+ * _strncat - concatenates two string
  * Description: prints string
  * @dest: param is dest
  * @src: param is src
