@@ -26,7 +26,5 @@ dest [c] = src [d];
 d++;
 c++;
 }
-
-dest[c] = '\0';
 return (0);
 }
