@@ -2,7 +2,7 @@
 
 
 /**
- * _strcar - concatenates two string
+ * _strcat - concatenates two string
  * Description: prints string
  * @dest: param is dest
  * @src: param is src
@@ -10,15 +10,21 @@
  */
 char *_strcat(char *dest, char *src)
 {
-  while(*dest)
-    dest++;
+int c, d;
 
-  while(*src)
-    {
-      *dest = *src;
-      src++;
-      dest++;
-    }
-  *dest = '\0';
-  return (dest);  
+c = 0;
+
+while (dest[c] != '\0')
+c++;
+
+
+d = 0;
+
+while (src[d] != '\0')
+{
+dest [c] = src [d];
+d++;
+c++;
+}
+return (dest);
 }
