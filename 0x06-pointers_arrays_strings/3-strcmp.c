@@ -37,11 +37,11 @@ else
 {
 len1 = len2;
 }
-for (i = 0; i < len1 ; i++)
+for (i = 0; i <= len1 ; i++)
 {
 size1 += s1[i];
 }
-for (i = 0; i < len2; i++)
+for (i = 0; i <= len2; i++)
 {
 size2 += s2[i];
 }
