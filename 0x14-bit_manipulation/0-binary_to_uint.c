@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 #include <stddef.h>
 /**
  * unsigned int binary_to_uint- converts binary
  * @b:b is param
- * Return: On success converted number
+ * Return:converted number
  */
 
 unsigned int binary_to_uint(const char *b)
